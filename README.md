@@ -1,15 +1,21 @@
 ### Date created
-Include the date you created this project and README file.
+Jun 22 2019,11:14 AM
 
 ### Project Title
-Replace the Project Title
+US Bike Share Project
 
 ### Description
-Describe what your project is about and what it does
+Overview In this project, you will make use of Python to explore data related to bikeshare systems for three major bikeshare systems in the United States.
 
 ### Files used
-Include the files used
+bikeShare.py
+
+### How to Run
+```
+   python bikeShare.py
+```
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+- Pyhton Documentation
+    * [Python](https://www.python.org/doc/)
 

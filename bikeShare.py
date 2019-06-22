@@ -1,3 +1,8 @@
+"""
+Refactoring changes for programming in Data Science Course.
+
+"""
+
 import time
 import pandas as pd
 import numpy as np
@@ -172,7 +177,7 @@ def trip_duration_stats(df):
 
 
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took %s seconds" % (time.time() - start_time))
     print('-'*40)
 
 

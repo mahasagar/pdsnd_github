@@ -10,9 +10,14 @@ Overview In this project, you will make use of Python to explore data related to
 ### Files used
 bikeShare.py
 
+### CLone The Repo
+ $ git clone https://github.com/mahasagar/pdsnd_github.git
+ $ cd pdsnd_github
+
 ### How to Run
 ```
    python bikeShare.py
+
 ```
 
 ### Credits

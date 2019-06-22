@@ -1,3 +1,8 @@
+"""
+Refactoring changes for programming in Data Science Course.
+
+"""
+
 import time
 import pandas as pd
 import numpy as np
@@ -172,7 +177,7 @@ def trip_duration_stats(df):
 
 
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took %s seconds" % (time.time() - start_time))
     print('-'*40)
 
 
@@ -188,15 +193,12 @@ def user_stats(df):
     customer=count['Customer']
     print("Subscriber:",subscriber," Customer:",customer)
 
-
-
     # TO DO: Display counts of gender
     if 'Gender' in df.columns:
         gender=df['Gender'].value_counts(dropna=True)
         male=gender['Male']
         female=gender['Female']
         print("Male:",male," Female:",female)
-
 
     # TO DO: Display earliest, most recent, and most common year of birth
     if 'Birth Year' in df.columns:
@@ -214,7 +216,6 @@ def user_stats(df):
         popular_year=df['Birth Year'].mode()[0]
         count = df['Birth Year'].value_counts(dropna=True)[popular_year]
         print("Popular year:",popular_year," Count:",count)
-
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
